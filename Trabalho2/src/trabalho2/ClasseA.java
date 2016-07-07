@@ -7,13 +7,26 @@ package trabalho2;
 
 /**
  *
- * @author
- * José Rivas
- * Lucas Vicente Leite
+ * @author José Rivas, Lucas Vicente Leite
  */
 public class ClasseA {
+
     int A1;
     float A2;
+    String A3;
+
+    public float soma(int a, float b) {
+        return (a + b);
+    }
+
+    public String getA3() {
+        return A3;
+    }
+
+    public void setA3(String A3) {
+        this.A3 = A3;
+    }
+
     public int getA1() {
         return A1;
     }
@@ -28,5 +41,5 @@ public class ClasseA {
 
     public void setA2(float A2) {
         this.A2 = A2;
-    }    
+    }
 }
