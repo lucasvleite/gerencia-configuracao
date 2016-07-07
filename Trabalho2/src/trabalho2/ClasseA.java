@@ -7,12 +7,13 @@ package trabalho2;
 
 /**
  *
- * @author norbel
+ * @author
+ * José Rivas
+ * Lucas Vicente Leite
  */
 public class ClasseA {
     int A1;
     float A2;
-
     public int getA1() {
         return A1;
     }
