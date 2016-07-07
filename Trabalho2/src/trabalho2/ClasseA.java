@@ -23,6 +23,10 @@ public class ClasseA {
     public void setAprinc4(String Aprinc4) {
         this.Aprinc4 = Aprinc4;
     }
+    
+    public float soma (int a, float b) {
+        return (a + b);
+    }
 
     public String getA3() {
         return A3;
