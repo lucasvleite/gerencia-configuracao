@@ -14,18 +14,14 @@ public class ClasseA {
     int A1;
     float A2;
     String A3;
-    String Aramo4;
+    String Aprinc4;
 
-    public String getAramo4() {
-        return Aramo4;
+    public String getAprinc4() {
+        return Aprinc4;
     }
 
-    public void setAramo4(String Aramo4) {
-        this.Aramo4 = Aramo4;
-    }
-    
-    public float soma(int a, float b) {
-        return (a + b);
+    public void setAprinc4(String Aprinc4) {
+        this.Aprinc4 = Aprinc4;
     }
 
     public String getA3() {
