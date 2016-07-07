@@ -14,6 +14,10 @@ public class ClasseA {
     int A1;
     float A2;
     String A3;
+    
+    public float soma(int a, float b) {
+        return (a + b);
+    }
 
     public String getA3() {
         return A3;
