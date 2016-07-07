@@ -7,13 +7,22 @@ package trabalho2;
 
 /**
  *
- * @author José Rivas, Lucas Vicente Leite
+ * @author José Rivas, Lucas Vicente
  */
 public class ClasseA {
 
     int A1;
     float A2;
     String A3;
+    String Aramo4;
+
+    public String getAramo4() {
+        return Aramo4;
+    }
+
+    public void setAramo4(String Aramo4) {
+        this.Aramo4 = Aramo4;
+    }
     
     public float soma(int a, float b) {
         return (a + b);
